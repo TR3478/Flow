@@ -21,7 +21,7 @@ if nav == "Welcome":
 
 if nav == "Wells":
     st.title("Wells in  uniform flowfield")
-    col1, col2, col3, col4, col5= st.beta_columns([20,1,20,1,20])
+    col1, col2, col3, col4, col5= st.columns([20,1,20,1,20])
     #--------------SLIDER-----------------------------------------------------
     with col1:
         st.subheader("Well 1")
@@ -230,7 +230,7 @@ if nav == "Wells":
 #-----------------------------RIVER------------------------------------------#
 if nav == "River":
     st.title("River")
-    col1, col2, col3, col4, col5= st.beta_columns([20,1,20,1,20])
+    col1, col2, col3, col4, col5= st.columns([20,1,20,1,20])
     #--------------SLIDER-----------------------------------------------------
     with col1:
         st.subheader("Well 1")
@@ -454,7 +454,7 @@ if nav == "River":
 #-----------------------------NO FLOW----------------------------------------#
 
 if nav == "No Flow":
-    col1, col2 = st.beta_columns([1,1])
+    col1, col2 = st.columns([1,1])
 
 
     #--------------SIDEBAR-----------------------------------------------------

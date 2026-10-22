@@ -19,7 +19,7 @@ if nav == "Welcome":
     st.title("Welcome to the prototype")
 
 if nav == "Wells":
-    col1, col2 = st.beta_columns([1,1])
+    col1, col2 = st.columns([1,1])
     #--------------SLIDER-----------------------------------------------------
     st.sidebar.title("Parameters")
     X1_para = st.slider("Well1 x-cordinate [m]", 1., 199., 99., 1.)
@@ -164,7 +164,7 @@ if nav == "Wells":
 #-----------------------------RIVER------------------------------------------#
 if nav == "River":
     st.title("Potential and Flow Visualization")
-    col1, col2 = st.beta_columns([1,1])
+    col1, col2 = st.columns([1,1])
 
 
     #--------------INPUT PARAMETERS-----------------------------------------------------
@@ -382,7 +382,7 @@ if nav == "River":
 #-----------------------------NO FLOW----------------------------------------#
 
 if nav == "No Flow":
-    col1, col2 = st.beta_columns([1,1])
+    col1, col2 = st.columns([1,1])
 
 
     #--------------SIDEBAR-----------------------------------------------------
